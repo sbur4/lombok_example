@@ -19,6 +19,10 @@ repositories {
 //    gradlePluginPortal()
 }
 
+wrapper {
+    gradleVersion = '8.0'
+}
+
 dependencies {
     // Configuring Log4j2 with SLF4J
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
